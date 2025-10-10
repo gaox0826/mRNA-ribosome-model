@@ -6,7 +6,7 @@ Code for "The proportional scaling of mRNA and ribosome concentrations controls 
 ## Overview
 This repository contains two MATLAB Live Scripts implementing **mass-action based models** that quantitatively connect transcription and translation capacities to cell growth rate in *Saccharomyces cerevisiae* under different nutrient conditions.
 
-The models link measured **RNAPII**, **mRNA**, and **ribosome** concentrations to the **active ribosome fraction** and overall **growth rate**, providing a mechanistic framework for how gene expression scales with metabolic state.
+The models link measured **RNAPII**, **mRNA**, and **ribosome** concentrations to the **active ribosome fraction** and overall **growth rate**, providing a mechanistic framework for how cell growth under different environments.
 
 ---
 
