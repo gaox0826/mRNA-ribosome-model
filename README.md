@@ -76,10 +76,9 @@ Assuming the **peptide elongation rate** is conserved, the model then infers **g
 ## Scientific Rationale
 - **Transcription layer:**  
   Nuclear RNAPII concentration and DNA binding govern the initiation rate of mRNA synthesis.  
-  A lower RNAPII–DNA binding fraction (*higher Kd*) limits transcriptional capacity, leading to reduced mRNA concentration.
 
 - **Translation layer:**  
-  Ribosome activity depends on mRNA availability and total ribosome abundance.  
+  The active ribosome fraction depends on mRNA availability and total ribosome abundance.  
   The mass-action steady-state between free and bound ribosomes defines the *active ribosome fraction*, which, under a conserved elongation rate, directly predicts growth rate.
 
 Together, these two models quantitatively bridge **transcriptional supply** and **translational demand**, revealing how yeast cells allocate resources to sustain balanced growth.
