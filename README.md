@@ -6,7 +6,7 @@ Code for "The proportional scaling of mRNA and ribosome concentrations controls 
 ## Overview
 This repository contains two MATLAB Live Scripts implementing **mass-action based models** that quantitatively connect transcription and translation capacities to cell growth rate in *Saccharomyces cerevisiae* under different nutrient conditions.
 
-The models link measured **RNAPII**, **mRNA**, and **ribosome** concentrations to the **active ribosome fraction** and overall **growth rate**, providing a mechanistic framework for how cell growth under different environments.
+The models link measured **RNAPII**, **mRNA**, and **ribosome** concentrations to the **active ribosome fraction** and overall **growth rate**, providing a mechanistic framework for how cell growth under different environments. All required datasets are included.
 
 ---
 
@@ -61,16 +61,16 @@ Assuming the **peptide elongation rate** is conserved, the model then infers **g
 ---
 
 ## Usage
-1. Clone or download this repository.  
+1. Clone or download this repository (<1min).  
 2. Place all required `.mat` and helper `.m` files in the same folder.  
 3. Open the Live Scripts in MATLAB:  
-   - Run `RNAPII_transcription_model.mlx` to model transcriptional scaling.  
-   - Run `mRNA_ribosome_translation_model.mlx` to model translational scaling.  
+   - Run `RNAPII_transcription_model.mlx` to model transcriptional scaling (<1min).  
+   - Run `mRNA_ribosome_translation_model.mlx` to model translational scaling (<1min).  
 4. Each script will automatically reproduce figures for:
    - RNAPII–DNA binding and mRNA prediction  
    - Active/inactive ribosome partitioning  
    - Predicted vs. measured growth rate
-
+5. All simulation figures in our paper can be reproducted by this code.
 ---
 
 ## Scientific Rationale
