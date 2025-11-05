@@ -83,6 +83,9 @@ Assuming the **peptide elongation rate** is conserved, the model then infers **g
 
 Together, these two models quantitatively bridge **transcriptional supply** and **translational demand**, revealing how yeast cells allocate resources to sustain balanced growth.
 
+## License
+This repository is released under the MIT License (OSI-approved).  
+SPDX-License-Identifier: MIT
 
 ---
 
